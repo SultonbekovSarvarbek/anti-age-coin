@@ -1,0 +1,48 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+html,body{
+    touch-action: none
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 16px;
+}  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-family: FuturaPT;
+    font-weight: normal;
+}
+body{
+    font-weight: normal;
+    color:#fff;
+}
+.container{
+    max-width: 1455px;
+    margin: 0 auto;
+    padding: 0 15px;
+    @media only screen and (min-width: 1200px) and (max-width: 1455px) {
+        max-width: 1200px;
+    }
+}
+ol, ul {
+    list-style: none;
+}  
+img {
+    max-width: 100%;
+    height: auto;
+}
+.default-layout{
+    padding-bottom: 1rem;
+}
+.page-content{
+    flex-grow: 1;
+}
+button{
+    cursor: pointer;
+}
+picture{
+    display: block;
+}
